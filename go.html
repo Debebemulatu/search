@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <head>
+    <title>GOLOLCHA DETERGENT</title>
+    <script>
+    function Choose(){
+      window.location="note.html"
+    }
+    function tdl(){
+      window.location="TDL.html"
+    }
+    function info(){window.location="app.html"}
+    function go(){window.location="https://www.google.com"}
+    </script>
+    <style>
+      body{
+        background-color: black;
+        margin: 0;
+      }
+      .st{
+        background-color: green;
+        color: black;
+        width: 100%;
+        height: 30%;
+        border: 2px solid white;
+      }
+       .nd{
+        background-color: yellow;
+        color: black;
+        width: 100%;
+        height: 30%;
+        border: 2px solid white;
+      }
+       .rd{
+        background-color: red;
+        color: black;
+        width: 100%;
+        height: 30%;
+        border: 2px solid white;
+      }
+      .all{
+        border: 5px solid blue;
+      }
+      h3{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1 onclick="Choose()" style="background-color:white">NOTE</h1>
+    <div class="all">
+     <a href="https://www.google.com"> <div class="st">
+      <h1>SEARCH By Link</h1>
+    </div></a>
+    <div class="nd" onclick="info()">
+      <h1>More</h1>
+    </div>
+    <div class="rd" onclick="go()">
+      <h1>SEARCH By JS</h1>
+    </div>
+    </div>
+     <center><h1 onclick="tdl()" style="background-color:white">To Do List</h1>
+  </body>
+</html>
